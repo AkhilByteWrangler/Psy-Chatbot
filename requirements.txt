@@ -1,3 +1,4 @@
-streamlit
-llama-cpp-python
 elevenlabs
+llama-cpp-python
+openai
+streamlit

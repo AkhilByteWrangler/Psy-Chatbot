@@ -2,3 +2,4 @@ elevenlabs
 llama-cpp-python
 openai
 streamlit
+huggingface-hub

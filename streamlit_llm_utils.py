@@ -14,7 +14,7 @@
 # a numeric score reflecting the effectiveness of the original response.
 
 import os
-from llama_cpp import Llama
+from pyllamacpp import Llama 
 from openai import OpenAI
 
 # LOCAL LLAMA FOR MAIN MODEL  
@@ -22,7 +22,7 @@ def init_main_llm():
     """
     Initialize the main LLM (local Llama model).
     """
-    return Llama.from_pretrained(
+    return Llama(
         repo_id="haran-nallasivan/meowth-nlp-demo-0.1_llama-3.2-3b-instruct_q5_k_m_gguf",
         filename="model.gguf",
         verbose=False,
